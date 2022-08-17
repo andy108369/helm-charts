@@ -1,95 +1,25 @@
 apiVersion: v1
 entries:
-  akash-hostname-operator:
-  - apiVersion: v2
-    appVersion: 0.16.4
-    created: "2022-08-15T13:08:54.434344185Z"
-    description: A Helm chart for Kubernetes
-    digest: 38a09144c17abebde1cfb15392939b784ed32be1cfc06f5aaeeabca135dd7465
-    name: akash-hostname-operator
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-hostname-operator-0.23.0/akash-hostname-operator-0.23.0.tgz
-    version: 0.23.0
   akash-ingress:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2022-08-15T13:08:54.850635192Z"
+    created: "2022-08-17T11:36:33.896731852Z"
     description: A Helm chart for Kubernetes
-    digest: 3cdceb0336780eb7dd3223e58ba210a61b94600a96bfe5f4cda69911d5c5e998
+    digest: 38fa6ad98ad265f3fa6692f6a62234b9a4a0567e5ada93bd909b3d2ef1959d6a
     name: akash-ingress
     type: application
     urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-ingress-0.22.0/akash-ingress-0.22.0.tgz
-    version: 0.22.0
-  akash-inventory-operator:
-  - apiVersion: v2
-    appVersion: 0.1.4
-    created: "2022-08-15T13:08:55.112701334Z"
-    description: A Helm chart for the Akash Inventory Operator
-    digest: 941ca245da6ab98ea38aa65ab09220cf5528bf1578844a9bde98af6eb5003ca1
-    name: akash-inventory-operator
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-inventory-operator-0.16.0/akash-inventory-operator-0.16.0.tgz
-    version: 0.16.0
-  akash-ip-operator:
-  - apiVersion: v2
-    appVersion: 0.16.4
-    created: "2022-08-15T13:08:55.357427879Z"
-    description: A Helm chart for Kubernetes
-    digest: f576ba0e3a049e98a97dc6b3a08707a7ebb8473530a2358f81e5fbdaac930f14
-    name: akash-ip-operator
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-ip-operator-0.12.0/akash-ip-operator-0.12.0.tgz
-    version: 0.12.0
-  akash-metallb:
-  - apiVersion: v2
-    appVersion: 0.16.4
-    created: "2022-08-15T13:08:55.609765923Z"
-    description: A network load-balancer implementation for Kubernetes using standard routing protocols
-    digest: be6484fc1c9f1cbd72e1e28f3bbac175507b72edc1671af5d7ca2fd4f4d8c230
-    home: https://metallb.universe.tf
-    icon: https://metallb.universe.tf/images/logo/metallb-white.png
-    name: akash-metallb
-    sources:
-    - https://github.com/metallb/metallb
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-metallb-0.12.0/akash-metallb-0.12.0.tgz
-    version: 0.12.0
-  akash-node:
-  - apiVersion: v2
-    appVersion: 0.16.4
-    created: "2022-08-15T13:08:55.878253864Z"
-    description: A Helm chart for Kubernetes
-    digest: f48d514417a42a905189cea6e059ddf0737d13f69a27c1ad4beb8e597ced6498
-    name: akash-node
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-node-0.136.0/akash-node-0.136.0.tgz
-    version: 0.136.0
-  akash-rook:
-  - apiVersion: v2
-    appVersion: 1.9.4
-    created: "2022-08-15T13:08:56.142330105Z"
-    description: A Helm chart for Kubernetes
-    digest: ee31ec7bd564171628dbc3c97bce435e63cbf2b4e58edd8229e4769f16f65829
-    name: akash-rook
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-rook-0.33.0/akash-rook-0.33.0.tgz
-    version: 0.33.0
+    - https://github.com/andy108369/helm-charts/releases/download/akash-ingress-0.23.0/akash-ingress-0.23.0.tgz
+    version: 0.23.0
   provider:
   - apiVersion: v2
     appVersion: 0.16.4
-    created: "2022-08-15T13:08:56.406366146Z"
+    created: "2022-08-17T11:36:34.143270144Z"
     description: A Helm chart for Kubernetes
-    digest: 45258074f6022cd82c3a8f830469b49cdd2236ac8bf4a27fd4ec2cf839e56316
+    digest: d20b53d49e03cb5ac337a1638429c7a795d2d6e24fecbe2464a1d699962c6b12
     name: provider
     type: application
     urls:
-    - https://github.com/andy108369/helm-charts/releases/download/provider-0.184.0/provider-0.184.0.tgz
-    version: 0.184.0
-generated: "2022-08-15T13:08:53.999424481Z"
+    - https://github.com/andy108369/helm-charts/releases/download/provider-0.190.0/provider-0.190.0.tgz
+    version: 0.190.0
+generated: "2022-08-17T11:36:33.467489139Z"
