@@ -1,25 +1,25 @@
 apiVersion: v1
 entries:
-  akash-ingress:
+  akash-hostname-operator:
   - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2022-08-17T11:36:33.896731852Z"
+    appVersion: 0.16.4
+    created: "2022-08-17T13:09:12.642856402Z"
     description: A Helm chart for Kubernetes
-    digest: 38fa6ad98ad265f3fa6692f6a62234b9a4a0567e5ada93bd909b3d2ef1959d6a
-    name: akash-ingress
+    digest: 0cdd223c6274e7cd714cb5f47ce43bdc7149b03d850a842a5c5e3eaa5a9c8cdf
+    name: akash-hostname-operator
     type: application
     urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-ingress-0.23.0/akash-ingress-0.23.0.tgz
-    version: 0.23.0
+    - https://github.com/andy108369/helm-charts/releases/download/akash-hostname-operator-0.24.0/akash-hostname-operator-0.24.0.tgz
+    version: 0.24.0
   provider:
   - apiVersion: v2
     appVersion: 0.16.4
-    created: "2022-08-17T11:36:34.143270144Z"
+    created: "2022-08-17T13:09:12.765169973Z"
     description: A Helm chart for Kubernetes
-    digest: d20b53d49e03cb5ac337a1638429c7a795d2d6e24fecbe2464a1d699962c6b12
+    digest: d12f3565ec8e573832ece6a4e85222011cb20ae092a156f22ce814fc8e36b499
     name: provider
     type: application
     urls:
-    - https://github.com/andy108369/helm-charts/releases/download/provider-0.190.0/provider-0.190.0.tgz
-    version: 0.190.0
-generated: "2022-08-17T11:36:33.467489139Z"
+    - https://github.com/andy108369/helm-charts/releases/download/provider-0.193.0/provider-0.193.0.tgz
+    version: 0.193.0
+generated: "2022-08-17T13:09:12.470366768Z"
