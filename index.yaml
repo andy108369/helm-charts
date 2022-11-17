@@ -1,110 +1,25 @@
 apiVersion: v1
 entries:
-  akash-e2e:
-  - apiVersion: v2
-    appVersion: 0.16.4
-    created: "2022-11-16T10:09:26.91850876Z"
-    dependencies:
-    - name: postgresql
-      repository: https://charts.bitnami.com/bitnami
-      version: 11.1.3
-    description: End to end tests to check if a provider is healthy (optional)
-    digest: d94d94bd4b32cd1417f2252212db0b7f9f418c43eaa7301829037037012e950d
-    name: akash-e2e
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-e2e-0.18.0/akash-e2e-0.18.0.tgz
-    version: 0.18.0
-  akash-faucet:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-11-16T10:09:27.125707909Z"
-    description: A faucet to give away free coins when using your own network (optional)
-    digest: 8dda9890a562d000b2e1732b3dadeeca8c34a59408496d7dbfc7fbfd39405462
-    name: akash-faucet
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-faucet-0.5.0/akash-faucet-0.5.0.tgz
-    version: 0.5.0
   akash-hostname-operator:
   - apiVersion: v2
     appVersion: 0.16.8
-    created: "2022-11-16T10:09:27.360108149Z"
+    created: "2022-11-17T11:10:57.696566521Z"
     description: An operator to map Ingress objects to Akash deployments (required)
-    digest: 054020c30fbc1f308ade14847362fa7b8ae9c2cd91dbb39cd9cf85a2a545c3bb
+    digest: ee469ddde11b1d835a503125045d896653fb44488e24b65067eb098c02ac4b62
     name: akash-hostname-operator
     type: application
     urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-hostname-operator-0.34.0/akash-hostname-operator-0.34.0.tgz
-    version: 0.34.0
-  akash-ingress:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2022-11-16T10:09:27.551058684Z"
-    description: Installs the Akash Ingress resources (required)
-    digest: 68ac78aa6dfb9961f4b48abb89aab6cee0f712a92f9532e24f247db16f32cc64
-    name: akash-ingress
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-ingress-0.33.0/akash-ingress-0.33.0.tgz
-    version: 0.33.0
-  akash-inventory-operator:
-  - apiVersion: v2
-    appVersion: 0.1.4
-    created: "2022-11-16T10:09:27.764791079Z"
-    description: An operator required for persistent storage (optional)
-    digest: 15fa548b955e69f957357265a49ae2e68f3a74a6ef2cbc51d498f9eba612b624
-    name: akash-inventory-operator
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-inventory-operator-0.17.0/akash-inventory-operator-0.17.0.tgz
-    version: 0.17.0
-  akash-ip-operator:
-  - apiVersion: v2
-    appVersion: 0.16.4
-    created: "2022-11-16T10:09:27.966313787Z"
-    description: An operator required for ip marketplace (optional)
-    digest: cc164a9c6ecd47c92cca08f27774037a697082314bf8f0fbf3bf452235ef9b0a
-    name: akash-ip-operator
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-ip-operator-0.16.0/akash-ip-operator-0.16.0.tgz
-    version: 0.16.0
-  akash-metallb:
-  - apiVersion: v2
-    appVersion: 0.16.4
-    created: "2022-11-16T10:09:28.152587654Z"
-    description: A dependency required for ip marketplace (optional)
-    digest: f35ad2ac4372c1d6fe5c05c848088209ab627fd89ff1a2c7a28c23531abeab3c
-    home: https://metallb.universe.tf
-    icon: https://metallb.universe.tf/images/logo/metallb-white.png
-    name: akash-metallb
-    sources:
-    - https://github.com/metallb/metallb
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-metallb-0.13.0/akash-metallb-0.13.0.tgz
-    version: 0.13.0
-  akash-node:
-  - apiVersion: v2
-    appVersion: 0.16.8
-    created: "2022-11-16T10:09:28.364199993Z"
-    description: Installs an Akash RPC node (required)
-    digest: 78c2d4b3a2cbd02f5891aaebb48d82c3f428033582279b77422b8f5d35c4d210
-    name: akash-node
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-node-0.166.0/akash-node-0.166.0.tgz
-    version: 0.166.0
+    - https://github.com/andy108369/helm-charts/releases/download/akash-hostname-operator-0.36.0/akash-hostname-operator-0.36.0.tgz
+    version: 0.36.0
   provider:
   - apiVersion: v2
     appVersion: 0.16.8
-    created: "2022-11-16T10:09:28.573587917Z"
+    created: "2022-11-17T11:10:57.859871802Z"
     description: Installs an Akash provider (required)
-    digest: 9e68099ff6119252c37601af0b627fdc41ff7fe34ff590ccd822a87bb9245540
+    digest: 37c16f704c0717fcc7e1b341c5926f4b18e82fc5c9cf6a040c1a4b2652cb8767
     name: provider
     type: application
     urls:
-    - https://github.com/andy108369/helm-charts/releases/download/provider-0.207.0/provider-0.207.0.tgz
-    version: 0.207.0
-generated: "2022-11-16T10:09:26.587594846Z"
+    - https://github.com/andy108369/helm-charts/releases/download/provider-0.211.0/provider-0.211.0.tgz
+    version: 0.211.0
+generated: "2022-11-17T11:10:57.444968144Z"
