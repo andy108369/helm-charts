@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  # DO NOT REMOVE resource-policy annotation!
+  annotations:
+    helm.sh/resource-policy: keep
+  labels:
+    akash.network: "true"
+    kubernetes.io/metadata.name: lease
+  name: lease
