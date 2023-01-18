@@ -3,45 +3,34 @@ entries:
   akash-ingress:
   - apiVersion: v2
     appVersion: 1.5.1
-    created: "2023-01-16T22:58:56.897208422Z"
+    created: "2023-01-18T14:40:22.86474316Z"
     description: Installs the Akash Ingress resources (required)
-    digest: 69493a2a21349eaa3076da4f73f875309e8a4fca2686ed9335993c721fae54f7
+    digest: d42016749f2c71b3aa9696568231aa5ba6290a44b1f5135d531c18707a960c71
     name: akash-ingress
     type: application
     urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-ingress-1.2.6/akash-ingress-1.2.6.tgz
-    version: 1.2.6
-  akash-ip-operator:
-  - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-01-16T22:58:57.017557634Z"
-    description: An operator required for ip marketplace (optional)
-    digest: 4229003f871de171918694a0357f3573cdda8b4863006759fd692f743c32e587
-    name: akash-ip-operator
-    type: application
-    urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-ip-operator-4.0.3/akash-ip-operator-4.0.3.tgz
-    version: 4.0.3
+    - https://github.com/andy108369/helm-charts/releases/download/akash-ingress-1.2.7/akash-ingress-1.2.7.tgz
+    version: 1.2.7
   akash-node:
   - apiVersion: v2
     appVersion: 0.20.0
-    created: "2023-01-16T22:58:57.138200347Z"
+    created: "2023-01-18T14:40:23.059895724Z"
     description: Installs an Akash RPC node (required)
-    digest: b307410ab8ab4c50f75310f1e715e5a5b7b1cffb647c1d8354b58066bd89192b
+    digest: 507df3e3b33b26c049454d38bd366d5c3340c5d73396b85d87bbb91bd38ae202
     name: akash-node
     type: application
     urls:
-    - https://github.com/andy108369/helm-charts/releases/download/akash-node-5.0.1/akash-node-5.0.1.tgz
-    version: 5.0.1
+    - https://github.com/andy108369/helm-charts/releases/download/akash-node-5.0.2/akash-node-5.0.2.tgz
+    version: 5.0.2
   provider:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2023-01-16T22:58:57.261579469Z"
+    created: "2023-01-18T14:40:23.278818067Z"
     description: Installs an Akash provider (required)
-    digest: b23964e498e425a4be4c7ff73eb5f8873a8c6009d32b233eb31d1d7f81f42db6
+    digest: 215cc0e8ae92dcef09e75af9c38e548aaae3827324665f21ec775e998a34b098
     name: provider
     type: application
     urls:
-    - https://github.com/andy108369/helm-charts/releases/download/provider-4.0.5/provider-4.0.5.tgz
-    version: 4.0.5
-generated: "2023-01-16T22:58:56.724997633Z"
+    - https://github.com/andy108369/helm-charts/releases/download/provider-4.0.6/provider-4.0.6.tgz
+    version: 4.0.6
+generated: "2023-01-18T14:40:22.492686885Z"
