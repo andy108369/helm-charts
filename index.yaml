@@ -3,6 +3,16 @@ entries:
   akash-hostname-operator:
   - apiVersion: v2
     appVersion: 0.2.1
+    created: "2023-08-09T21:53:31.070037438Z"
+    description: An operator to map Ingress objects to Akash deployments (required)
+    digest: b938afbf7a7df28b50f3ef9d924285aa4afd7d43e504a5c97ada1b233200b873
+    name: akash-hostname-operator
+    type: application
+    urls:
+    - https://github.com/andy108369/helm-charts/releases/download/akash-hostname-operator-4.1.1/akash-hostname-operator-4.1.1.tgz
+    version: 4.1.1
+  - apiVersion: v2
+    appVersion: 0.2.1
     created: "2023-05-02T10:13:15.360934446Z"
     description: An operator to map Ingress objects to Akash deployments (required)
     digest: 6538cbb7f61d6abf5b6200efc374cc9f8c1bf3a3d494675d49a1f6f6fc71e157
@@ -47,6 +57,16 @@ entries:
   akash-node:
   - apiVersion: v2
     appVersion: 0.22.0
+    created: "2023-08-09T21:53:31.27776815Z"
+    description: Installs an Akash RPC node (required)
+    digest: a4beb7d9bf73ffbef25f1b87e2125e326623d58b52474318f7c8c132f81c6682
+    name: akash-node
+    type: application
+    urls:
+    - https://github.com/andy108369/helm-charts/releases/download/akash-node-5.3.3/akash-node-5.3.3.tgz
+    version: 5.3.3
+  - apiVersion: v2
+    appVersion: 0.22.0
     created: "2023-07-28T09:58:37.795532492Z"
     description: Installs an Akash RPC node (required)
     digest: 7c1f719ac624a04687774f7a38a912258f4741fb7cb884a578c75815f9142d0a
@@ -78,6 +98,16 @@ entries:
   provider:
   - apiVersion: v2
     appVersion: 0.2.1
+    created: "2023-08-09T21:53:31.508621309Z"
+    description: Installs an Akash provider (required)
+    digest: 72701d788016770b93489beb92a6503e4944ddb4fed7db43bc68a4772bd31d9a
+    name: provider
+    type: application
+    urls:
+    - https://github.com/andy108369/helm-charts/releases/download/provider-4.3.5/provider-4.3.5.tgz
+    version: 4.3.5
+  - apiVersion: v2
+    appVersion: 0.2.1
     created: "2023-07-28T09:58:37.952028687Z"
     description: Installs an Akash provider (required)
     digest: 604b183994af9055055230cd22d44e6499f508cd4233fe67650da4e09859e69a
@@ -106,4 +136,4 @@ entries:
     urls:
     - https://github.com/andy108369/helm-charts/releases/download/provider-4.0.6/provider-4.0.6.tgz
     version: 4.0.6
-generated: "2023-07-28T09:58:37.952808488Z"
+generated: "2023-08-09T21:53:31.509050912Z"
