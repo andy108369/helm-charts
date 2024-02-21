@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   akash-hostname-operator:
   - apiVersion: v2
+    appVersion: 0.4.8
+    created: "2024-02-21T09:12:06.260078685Z"
+    description: An operator to map Ingress objects to Akash deployments (required)
+    digest: 9f72ee705e1d5857a1bb831d7e9f69ca590c3436be5743920c4a312c39405945
+    name: akash-hostname-operator
+    type: application
+    urls:
+    - https://github.com/andy108369/helm-charts/releases/download/akash-hostname-operator-8.0.0/akash-hostname-operator-8.0.0.tgz
+    version: 8.0.0
+  - apiVersion: v2
     appVersion: 0.4.7
     created: "2023-11-15T20:22:55.979658353Z"
     description: An operator to map Ingress objects to Akash deployments (required)
@@ -54,6 +64,16 @@ entries:
     version: 1.2.7
   akash-inventory-operator:
   - apiVersion: v2
+    appVersion: 0.4.8
+    created: "2024-02-21T09:12:06.368328766Z"
+    description: An operator required for persistent storage (optional)
+    digest: 925297227bb96de0166c06af4589b92f6b4a68264ad647e1777b0b9c44c2f3a0
+    name: akash-inventory-operator
+    type: application
+    urls:
+    - https://github.com/andy108369/helm-charts/releases/download/akash-inventory-operator-8.0.1/akash-inventory-operator-8.0.1.tgz
+    version: 8.0.1
+  - apiVersion: v2
     appVersion: 0.4.7
     created: "2023-11-15T20:22:56.140354878Z"
     description: An operator required for persistent storage (optional)
@@ -85,6 +105,16 @@ entries:
     version: 4.1.0
   akash-ip-operator:
   - apiVersion: v2
+    appVersion: 0.4.8
+    created: "2024-02-21T09:12:06.496421291Z"
+    description: An operator required for ip marketplace (optional)
+    digest: fde43d27dc108ddc1021fbc2f3e0c88e7d7eb20ab242994eb009475daf3c680d
+    name: akash-ip-operator
+    type: application
+    urls:
+    - https://github.com/andy108369/helm-charts/releases/download/akash-ip-operator-8.0.0/akash-ip-operator-8.0.0.tgz
+    version: 8.0.0
+  - apiVersion: v2
     appVersion: 0.4.7
     created: "2023-11-15T20:22:56.273923926Z"
     description: An operator required for ip marketplace (optional)
@@ -115,6 +145,16 @@ entries:
     - https://github.com/andy108369/helm-charts/releases/download/akash-ip-operator-4.1.0/akash-ip-operator-4.1.0.tgz
     version: 4.1.0
   akash-node:
+  - apiVersion: v2
+    appVersion: 0.30.0
+    created: "2024-02-21T09:12:06.609834255Z"
+    description: Installs an Akash RPC node (required)
+    digest: ff1e17c77f6363b19a8b6b0a034d483288998e58caf006702af322f8f941489a
+    name: akash-node
+    type: application
+    urls:
+    - https://github.com/andy108369/helm-charts/releases/download/akash-node-9.0.0/akash-node-9.0.0.tgz
+    version: 9.0.0
   - apiVersion: v2
     appVersion: 0.26.2
     created: "2023-11-15T20:22:56.428174691Z"
@@ -176,6 +216,16 @@ entries:
     - https://github.com/andy108369/helm-charts/releases/download/akash-node-5.0.2/akash-node-5.0.2.tgz
     version: 5.0.2
   provider:
+  - apiVersion: v2
+    appVersion: 0.4.8
+    created: "2024-02-21T09:12:06.729864966Z"
+    description: Installs an Akash provider (required)
+    digest: d0f7904fdae1fe0e5e53615f2cfbb5d42f80843528b37dbf45320a7914c62e75
+    name: provider
+    type: application
+    urls:
+    - https://github.com/andy108369/helm-charts/releases/download/provider-8.0.3/provider-8.0.3.tgz
+    version: 8.0.3
   - apiVersion: v2
     appVersion: 0.4.7
     created: "2023-11-15T20:22:56.585068502Z"
@@ -246,4 +296,4 @@ entries:
     urls:
     - https://github.com/andy108369/helm-charts/releases/download/provider-4.0.6/provider-4.0.6.tgz
     version: 4.0.6
-generated: "2023-11-15T20:22:56.585163039Z"
+generated: "2024-02-21T09:12:06.729961016Z"
